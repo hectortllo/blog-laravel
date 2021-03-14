@@ -38,7 +38,7 @@
                             <label>Contenido embebido</label>
                             <textarea   name="iframe" 
                                         class="form-control" 
-                                        required>{{ old('iframe', $post->iframe) }}
+                                        >{{ old('iframe', $post->iframe) }}
                             </textarea>
                         </div>
                         <div class="form-group">
